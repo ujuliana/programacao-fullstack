@@ -1,0 +1,68 @@
+<!-- 2.CRIE UM PROGRAMA QUE SOLICITE AO USUÁRIO QUE DIGITE NÚMEROS ATÉ QUE ELE DIGITE 0. EM SEGUIDA, EXIBA A SOMA DESSES NÚMEROS.
+ -->
+<!-- <script>
+    let soma = 0;
+    let numero = 1;
+
+    while (numero != 0) {
+        numero = parseInt(prompt("Digite um número (0 para sair): "));
+        soma += numero;
+    }
+
+    document.write(`A soma dos números digitados é ${soma}`);
+</script> -->
+
+<!-- 3.ESCREVA UM PROGRAMA QUE PEÇA AO USUÁRIO QUE DIGITE O NÚMERO DE MAÇÃS QUE ELE QUER COMPRAR. O PREÇO DE CADA MAÇÃ É R$0,30. EXIBA O TOTAL A SER PAGO. -->
+
+<!-- <script>
+   let total = 0;
+   let quantidade = parseInt(prompt("Digite a quantidade de maçãs que deseja comprar: "));
+
+    while (quantidade > 0) {
+        total += quantidade * 0.3;
+        quantidade = parseInt(prompt("Digite a quantidade de maçãs que deseja comprar (0 para sair): "));
+       
+    }
+    document.write(`O total a ser pago será de ${total}`)
+</script> -->
+
+<!-- 4.CRIE UM PROGRAMA QUE SOLICITE AO USUÁRIO QUE DIGITE UM NÚMERO E EXIBA TODOS OS NÚMEROS PARES DE 0 ATÉ ESSE NÚMERO. -->
+
+<!-- <script>
+    let numero = parseInt(prompt("Digite um número: "));
+
+    let a = 0;
+
+    while (a <= numero) {
+    if (a % 2 === 0) {
+        document.write(a);
+    }
+        a++;
+    }
+</script> -->
+
+<!-- 5.ESCREVA UM PROGRAMA QUE SOLICITE AO USUÁRIO QUE DIGITE A SENHA CORRETA. REPITA ESSA SOLICITAÇÃO ATÉ QUE O USUÁRIO ACERTE A SENHA. -->
+
+<!-- <script>
+    let senha = "3004";
+    let tentativa = " ";
+
+    while (tentativa !== senha) {
+        tentativa = prompt("Digite a senha: ");
+    }
+    document.write("Senha correta!")
+</script> -->
+
+<!-- 6.ESCREVA UM PROGRAMA QUE SOLICITE AO USUÁRIO QUE ADIVINHE UM NÚMERO ENTRE 1 E 10. EXIBA UMA MENSAGEM DE "MAIOR" OU "MENOR" ATÉ QUE O USUÁRIO ACERTE O NÚMERO. -->
+
+<script>
+    // let tentativas = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    let NumeroEscolhido = 3;
+    let tentativa = " ";
+    while(tentativa > NumeroEscolhido){
+        tentativa =  Number (prompt("Ops, Passou longe! hahaha."));
+    if (tentativa < NumeroEscolhido) {
+        tentativa = Number (prompt("Eita, essa foi por pouco! hahaha"));
+    }
+    }
+</script>
