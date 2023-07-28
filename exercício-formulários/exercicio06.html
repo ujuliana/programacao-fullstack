@@ -1,0 +1,50 @@
+<!-- 6.Adicione um campo de entrada de senha com uma máscara para mostrar os caracteres digitados. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro do Usuário</h1>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" name="nome" id="nome"> <br>
+            <label for="e-mail">E-mail:</label> <br>
+            <input type="text" name="e-mail" id="e-mail"> <br>
+            <label for="mensagem">Mensagem do Usuário:</label> <br>
+            <input type="text" name="mensagem" id="mensagem"> <br>
+            <label for="idade">Idade:</label> <br>
+            <input type="number" name="idade" id="idade"> <br>
+
+            <p>Selecione seu gênero:</p>
+            <input type="radio" id="fem" name="sexo" value="Feminino">
+            <label for="fem">Feminino</label> <br>
+            <input type="radio" id="masc" name="sexo" value="Masculino">
+            <label for="masc">Masculino</label> <br>
+
+            <p>Selecione sua data de nascimento:</p>
+            <label for="data"></label>
+            <input type="date" name="data" id="data">
+
+            <p>Faça upload de um arquivo:</p>
+            <label for="arquivo"></label>
+            <input type="file" name="arquivo" id="arquivo"> <br>
+            <br>
+
+            <label for="senha">Senha:</label> <br>
+            <input type="password" name="senha" id="senha">
+
+        </form>
+    </main>
+    <footer>
+        <p>&COPY; Formulário 06 | 2023</p>
+    </footer>
+    
+</body>
+</html>

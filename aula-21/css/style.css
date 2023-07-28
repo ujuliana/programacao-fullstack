@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 15px;
+    background-color: black;
+    color: black;
+    border: dashed 5px black;
+    display: inline-block;
+
+}
+
+.lilás {
+    background-color:rebeccapurple;
+}
+
+.rosa {
+    background-color: rgba(255, 0, 128, 0.6)
+}
+
+.vermelho {
+    background-color: #04AA6D
+}
