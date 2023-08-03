@@ -5,8 +5,8 @@
 }
 
 #principal {
-    width: 600px;
-    height: 600px;
+    width: 900px;
+    height: 1000px;
     background-color: black;
     margin: auto;
     margin-top: 50px;
@@ -18,8 +18,14 @@
     width: 100px;
     height: 100px;
     background-color: pink;
-    position: absolute;
+    position: sticky;
     right: 0px;
+    bottom: 20px;
+   
     
     
+}
+
+.secundaria:hover {
+    height: 600px;
 }
